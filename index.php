@@ -38,7 +38,6 @@ while(!feof($remoteSignalFile)){
             continue;
         }
         if(strpos($number, 'stop') !== false){
-            echo true;
             file_put_contents('result-arduino-code.txt', '}'.PHP_EOL, FILE_APPEND | LOCK_EX);
             echo  "}<br>";
             continue;
