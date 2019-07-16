@@ -1,6 +1,7 @@
 # arduino-tv-remote
 project (libraray and arduino project) for controll my tv, tv box, led strip etc.
 #remote for led strip
+ON button
 OFF 	ON
 29772 usec, 9400 usec
 4600 usec, 640 usec
@@ -40,4 +41,133 @@ OFF 	ON
 2280 usec, 600 usec
 33644 usec, 9360 usec
 2280 usec, 640 usec
+
+OFF button
+
+OFF 	ON
+34636 usec, 9380 usec
+4660 usec, 600 usec
+560 usec, 600 usec
+560 usec, 620 usec
+560 usec, 600 usec
+560 usec, 620 usec
+560 usec, 600 usec
+560 usec, 600 usec
+560 usec, 620 usec
+560 usec, 600 usec
+1700 usec, 620 usec
+1700 usec, 600 usec
+1680 usec, 640 usec
+1700 usec, 600 usec
+1720 usec, 600 usec
+1700 usec, 600 usec
+1700 usec, 620 usec
+1700 usec, 580 usec
+1720 usec, 620 usec
+1680 usec, 640 usec
+1700 usec, 600 usec
+1700 usec, 620 usec
+1680 usec, 640 usec
+560 usec, 600 usec
+560 usec, 580 usec
+580 usec, 600 usec
+580 usec, 600 usec
+560 usec, 600 usec
+560 usec, 620 usec
+560 usec, 580 usec
+580 usec, 620 usec
+1700 usec, 600 usec
+1700 usec, 580 usec
+1740 usec, 580 usec
+41200 usec, 9360 usec
+2300 usec, 600 usec
+33784 usec, 9380 usec
+2280 usec, 600 usec
+33724 usec, 9380 usec
+2280 usec, 600 usec
+
+Birghtness down
+
+OFF 	ON
+49516 usec, 9360 usec
+4620 usec, 660 usec
+540 usec, 620 usec
+560 usec, 600 usec
+560 usec, 620 usec
+560 usec, 620 usec
+540 usec, 620 usec
+540 usec, 640 usec
+540 usec, 620 usec
+540 usec, 600 usec
+1720 usec, 620 usec
+1680 usec, 620 usec
+1680 usec, 620 usec
+1720 usec, 600 usec
+1700 usec, 640 usec
+1680 usec, 640 usec
+1680 usec, 620 usec
+1680 usec, 600 usec
+1720 usec, 600 usec
+560 usec, 640 usec
+1680 usec, 640 usec
+1660 usec, 620 usec
+1700 usec, 600 usec
+580 usec, 620 usec
+540 usec, 620 usec
+560 usec, 620 usec
+540 usec, 620 usec
+1660 usec, 660 usec
+540 usec, 600 usec
+560 usec, 620 usec
+560 usec, 620 usec
+1700 usec, 600 usec
+1700 usec, 620 usec
+1680 usec, 640 usec
+40840 usec, 9400 usec
+2300 usec, 600 usec
+33024 usec, 9380 usec
+2300 usec, 640 usec
+
+ Brightness UP
+34956 usec, 9360 usec
+4660 usec, 620 usec
+560 usec, 600 usec
+560 usec, 600 usec
+560 usec, 600 usec
+560 usec, 620 usec
+560 usec, 600 usec
+560 usec, 600 usec
+580 usec, 620 usec
+540 usec, 600 usec
+1700 usec, 620 usec
+1700 usec, 600 usec
+1700 usec, 620 usec
+1680 usec, 640 usec
+1700 usec, 600 usec
+1680 usec, 620 usec
+1700 usec, 620 usec
+1700 usec, 620 usec
+1700 usec, 620 usec
+560 usec, 600 usec
+560 usec, 600 usec
+1720 usec, 600 usec
+560 usec, 600 usec
+580 usec, 600 usec
+560 usec, 600 usec
+560 usec, 620 usec
+560 usec, 600 usec
+1700 usec, 600 usec
+1720 usec, 620 usec
+540 usec, 600 usec
+1720 usec, 600 usec
+1700 usec, 620 usec
+1700 usec, 600 usec
+1680 usec, 640 usec
+41180 usec, 9340 usec
+2320 usec, 600 usec
+33764 usec, 9420 usec
+2260 usec, 620 usec
+33744 usec, 9380 usec
+2300 usec, 620 usec
+
 
