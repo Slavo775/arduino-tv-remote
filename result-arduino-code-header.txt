@@ -1,93 +1,93 @@
 class arduinoTvSamsungRemote
 {
 public:
-void arduinoTvSamsungRemote
+void buttonON
 ();
-void arduinoTvSamsungRemote
+void buttonSource
 ();
-void arduinoTvSamsungRemote
+void buttonOne
 ();
-void arduinoTvSamsungRemote
+void buttonTwo
 ();
-void arduinoTvSamsungRemote
+void buttonThree
 ();
-void arduinoTvSamsungRemote
+void buttonFour
 ();
-void arduinoTvSamsungRemote
+void buttonFive
 ();
-void arduinoTvSamsungRemote
+void buttonSix
 ();
-void arduinoTvSamsungRemote
+void buttonSeven
 ();
-void arduinoTvSamsungRemote
+void buttonEight
 ();
-void arduinoTvSamsungRemote
+void buttonNine
 ();
-void arduinoTvSamsungRemote
+void buttonTTXMIX
 ();
-void arduinoTvSamsungRemote
+void buttonZero
 ();
-void arduinoTvSamsungRemote
+void buttonPRECH
 ();
-void arduinoTvSamsungRemote
+void buttonVolPlus
 ();
-void arduinoTvSamsungRemote
+void buttonVolMinus
 ();
-void arduinoTvSamsungRemote
+void buttonMute
 ();
-void arduinoTvSamsungRemote
+void buttonCHList
 ();
-void arduinoTvSamsungRemote
+void buttonCHPlus
 ();
-void arduinoTvSamsungRemote
+void buttonCHMinus
 ();
-void arduinoTvSamsungRemote
+void buttonSport
 ();
-void arduinoTvSamsungRemote
+void buttonHome
 ();
-void arduinoTvSamsungRemote
+void buttonGuide
 ();
-void arduinoTvSamsungRemote
+void buttonExtra
 ();
-void arduinoTvSamsungRemote
+void buttonUp
 ();
-void arduinoTvSamsungRemote
+void buttonInfo
 ();
-void arduinoTvSamsungRemote
+void buttonLeft
 ();
-void arduinoTvSamsungRemote
+void buttonOK
 ();
-void arduinoTvSamsungRemote
+void buttonRight
 ();
-void arduinoTvSamsungRemote
+void buttonReturn
 ();
-void arduinoTvSamsungRemote
+void buttonDown
 ();
-void arduinoTvSamsungRemote
+void buttonExit
 ();
-void arduinoTvSamsungRemote
+void buttonRedA
 ();
-void arduinoTvSamsungRemote
+void buttonGreenB
 ();
-void arduinoTvSamsungRemote
+void buttonYellowC
 ();
-void arduinoTvSamsungRemote
+void buttonBlueD
 ();
-void arduinoTvSamsungRemote
+void buttonSettings
 ();
-void arduinoTvSamsungRemote
+void buttonADSUBT
 ();
-void arduinoTvSamsungRemote
+void buttonREC
 ();
-void arduinoTvSamsungRemote
+void buttonStop
 ();
-void arduinoTvSamsungRemote
+void buttonReverse
 ();
-void arduinoTvSamsungRemote
+void buttonPlay
 ();
-void arduinoTvSamsungRemote
+void buttonPause
 ();
-void arduinoTvSamsungRemote
+void buttonForward
 ();
 private:
 }

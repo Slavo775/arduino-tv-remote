@@ -43,7 +43,7 @@ while(!feof($remoteSignalFile)){
             $number = explode(',',$number);
             $startFunction = "void $class::$number[1](){";
             file_put_contents('result-arduino-code.txt', $startFunction.PHP_EOL, FILE_APPEND | LOCK_EX);
-	    file_put_contents('result-arduino-code-header.txt', "void $class();".PHP_EOL, FILE_APPEND | LOCK_EX);
+	    file_put_contents('result-arduino-code-header.txt', "void $number[1]();".PHP_EOL, FILE_APPEND | LOCK_EX);
             echo $startFunction . "<br>";
             continue;
         }
