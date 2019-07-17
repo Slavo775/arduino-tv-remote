@@ -19,15 +19,12 @@ run();
 function run(){
 $remoteSignalFile = fopen('remote-signal.txt', "r") or die('Unable to open file remote-signal.txt make sure if file exist!!!');
 $class = fgets($remoteSignalFile);
-file_put_contents('result-arduino-code-header.txt', "class $class{".PHP_EOL, FILE_APPEND | LOCK_EX)
-file_put_contents('result-arduino-code-header.txt', "public:".PHP_EOL, FILE_APPEND | LOCK_EX)
+file_put_contents('result-arduino-code-header.txt', "class $class{".PHP_EOL, FILE_APPEND | LOCK_EX);
+file_put_contents('result-arduino-code-header.txt', "public:".PHP_EOL, FILE_APPEND | LOCK_EX);
 while(!feof($remoteSignalFile)){
     $fileline = fgets($remoteSignalFile);
     $fileExplode  = explode(' ' , $fileline);
     $firstNumber = true;
-    $startFunction = true;
-    $startClass = true;
-    $function = '';
     foreach ($fileExplode as $number){
         if(is_numeric($number)){
             if($firstNumber){
@@ -44,9 +41,9 @@ while(!feof($remoteSignalFile)){
         }
         if(strpos($number, 'start') !== false){
             $number = explode(',',$number);
-            $startFunction = "void $number[1]::$number[2](){";
+            $startFunction = "void $class::$number[1](){";
             file_put_contents('result-arduino-code.txt', $startFunction.PHP_EOL, FILE_APPEND | LOCK_EX);
-	    file_put_contents('result-arduino-code-header.txt', "void $number[2]".PHP_EOL, FILE_APPEND | LOCK_EX)
+	    file_put_contents('result-arduino-code-header.txt', "void $class();".PHP_EOL, FILE_APPEND | LOCK_EX);
             echo $startFunction . "<br>";
             continue;
         }
@@ -58,8 +55,8 @@ while(!feof($remoteSignalFile)){
 
     }
 }
-file_put_contents('result-arduino-code-header.txt', "private:".PHP_EOL, FILE_APPEND | LOCK_EX)
-file_put_contents('result-arduino-code-header.txt', "}".PHP_EOL, FILE_APPEND | LOCK_EX)
+file_put_contents('result-arduino-code-header.txt', "private:".PHP_EOL, FILE_APPEND | LOCK_EX);
+file_put_contents('result-arduino-code-header.txt', "}".PHP_EOL, FILE_APPEND | LOCK_EX);
 fclose($remoteSignalFile);
 
 };
