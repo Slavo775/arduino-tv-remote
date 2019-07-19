@@ -100,7 +100,6 @@ delayMicroseconds(2280);
 _pulseIR(640);
 }
 void remoteLedStrip::OFFButton(){
-  Serial.println("button off");
 delayMicroseconds(34636);
 _pulseIR(9380);
 delayMicroseconds(4660);
