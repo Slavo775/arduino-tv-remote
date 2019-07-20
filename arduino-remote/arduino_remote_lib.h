@@ -3,6 +3,7 @@
 
 #include "Arduino.h"
 #include "arduino_tv_samsung_remote.h"
+#include "arduino_tv_magio_remote.h"
 
 class remoteLedStrip{
   public:
