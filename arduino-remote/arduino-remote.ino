@@ -69,15 +69,15 @@ void config_rest_server_routing() {
         http_rest_server.send(200, "text/html",
             "Welcome to the ESP8266 REST Web Server");
     });
-    http_rest_server.on("/samsung/buttonON", HTTP_GET, []() {samsungRemote.buttonON(); http_rest_server.send(200, "text/html","OK");});
-    http_rest_server.on("/samsung/buttonSource", HTTP_GET, []() {samsungRemote.buttonSource(); http_rest_server.send(200, "text/html","OK");});
-    http_rest_server.on("/samsung/buttonVolPlus", HTTP_GET, []() {samsungRemote.buttonVolPlus(); http_rest_server.send(200, "text/html","OK");});
-    http_rest_server.on("/samsung/buttonVolMinus", HTTP_GET, []() {samsungRemote.buttonVolMinus(); http_rest_server.send(200, "text/html","OK");});
-    http_rest_server.on("/samsung/buttonMute", HTTP_GET, []() {samsungRemote.buttonMute(); http_rest_server.send(200, "text/html","OK");});
-    http_rest_server.on("/samsung/buttonSport", HTTP_GET, []() {samsungRemote.buttonSport(); http_rest_server.send(200, "text/html","OK");});
-    http_rest_server.on("/samsung/buttonExit", HTTP_GET, []() {samsungRemote.buttonExit(); http_rest_server.send(200, "text/html","OK");});
-    http_rest_server.on("/samsung/buttonHome", HTTP_GET, []() {samsungRemote.buttonHome(); http_rest_server.send(200, "text/html","OK");});
-    http_rest_server.on("/samsung/buttonLeft", HTTP_GET, []() {samsungRemote.buttonLeft(); http_rest_server.send(200, "text/html","OK");});
-    http_rest_server.on("/samsung/buttonRight", HTTP_GET, []() {samsungRemote.buttonRight(); http_rest_server.send(200, "text/html","OK");});
-    http_rest_server.on("/samsung/buttonUp", HTTP_GET, []() {samsungRemote.buttonUp(); http_rest_server.send(200, "text/html","OK");});
+    http_rest_server.on("/samsung/buttonON", HTTP_GET, []() {samsungRemote.buttonON(); http_rest_server.send(200, "text/html","OK"); http_rest_server.sendHeader("Access-Control-Allow-Origin","*");});
+    http_rest_server.on("/samsung/buttonSource", HTTP_GET, []() {samsungRemote.buttonSource(); http_rest_server.send(200, "text/html","OK"); http_rest_server.sendHeader("Access-Control-Allow-Origin","*");});
+    http_rest_server.on("/samsung/buttonVolPlus", HTTP_GET, []() {samsungRemote.buttonVolPlus(); http_rest_server.send(200, "text/html","OK"); http_rest_server.sendHeader("Access-Control-Allow-Origin","*");});
+    http_rest_server.on("/samsung/buttonVolMinus", HTTP_GET, []() {samsungRemote.buttonVolMinus(); http_rest_server.send(200, "text/html","OK"); http_rest_server.sendHeader("Access-Control-Allow-Origin","*");});
+    http_rest_server.on("/samsung/buttonMute", HTTP_GET, []() {samsungRemote.buttonMute(); http_rest_server.send(200, "text/html","OK"); http_rest_server.sendHeader("Access-Control-Allow-Origin","*");});
+    http_rest_server.on("/samsung/buttonSport", HTTP_GET, []() {samsungRemote.buttonSport(); http_rest_server.send(200, "text/html","OK"); http_rest_server.sendHeader("Access-Control-Allow-Origin","*");});
+    http_rest_server.on("/samsung/buttonExit", HTTP_GET, []() {samsungRemote.buttonExit(); http_rest_server.send(200, "text/html","OK"); http_rest_server.sendHeader("Access-Control-Allow-Origin","*");});
+    http_rest_server.on("/samsung/buttonHome", HTTP_GET, []() {samsungRemote.buttonHome(); http_rest_server.send(200, "text/html","OK"); http_rest_server.sendHeader("Access-Control-Allow-Origin","*");});
+    http_rest_server.on("/samsung/buttonLeft", HTTP_GET, []() {samsungRemote.buttonLeft(); http_rest_server.send(200, "text/html","OK"); http_rest_server.sendHeader("Access-Control-Allow-Origin","*");});
+    http_rest_server.on("/samsung/buttonRight", HTTP_GET, []() {samsungRemote.buttonRight(); http_rest_server.send(200, "text/html","OK"); http_rest_server.sendHeader("Access-Control-Allow-Origin","*");});
+    http_rest_server.on("/samsung/buttonUp", HTTP_GET, []() {samsungRemote.buttonUp(); http_rest_server.send(200, "text/html","OK"); http_rest_server.sendHeader("Access-Control-Allow-Origin","*");});
 }
