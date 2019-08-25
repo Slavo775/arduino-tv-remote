@@ -1,5 +1,5 @@
-#include "remote_library/arduino_tv_samsung_remote.h"
-#include "remote_library/arduino_remote_lib.h"
+#include "arduino_tv_samsung_remote.h"
+#include "arduino_remote_lib.h"
 arduinoTvSamsungRemote::arduinoTvSamsungRemote(int IRPin){
   _IRPin = IRPin;
 }

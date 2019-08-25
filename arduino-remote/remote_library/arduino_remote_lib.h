@@ -2,8 +2,8 @@
 #define arduino-remote
 
 #include "Arduino.h"
-#include "remote_library/arduino_tv_samsung_remote.h"
-#include "remote_library/arduino_tv_magio_remote.h"
+#include "arduino_tv_samsung_remote.h"
+#include "arduino_tv_magio_remote.h"
 
 class remoteLedStrip{
   public:

@@ -1,4 +1,4 @@
-#include "remote_library/arduino_remote_lib.h"
+#include "arduino_remote_lib.h"
 
 remoteLedStrip::remoteLedStrip(int IRPin){
   _IRPin = IRPin;
